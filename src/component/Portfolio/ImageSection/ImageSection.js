@@ -7,6 +7,7 @@ import Grid3 from '../../../images/Portfolio/grid3.jpg'
 import Grid4 from '../../../images/Sagebrush/8.jpg'
 import Grid5 from '../../../images/Portfolio/grid5.png'
 import Grid6 from '../../../images/Portfolio/grid6.png'
+import Grid7 from '../../../images/Nature Haven/4.jpg'
 
 class ImageSection extends React.Component {
     state = {
@@ -42,6 +43,14 @@ class ImageSection extends React.Component {
                 viewmore: '/IndividualPortfolioFour',
                 link: '/IndividualPortfolioFour',
                 image: Grid4
+            },
+			{
+                id: 5,
+                para: 'Occupied',
+                header: 'Nature Haven Residence',
+                viewmore: '/IndividualPortfolioNineth',
+                link: '/IndividualPortfolioNineth',
+                image: Grid7
             },
         ],
         final: []
