@@ -19,6 +19,7 @@ import IndividualPortfolioSix from './component/Portfolio/IndividualPortfolioSix
 import IndividualPortfolioSeven from './component/Portfolio/IndividualPortfolioSeven/IndividualPortfolioFourth';
 import IndividualPortfolioEight from './component/Portfolio/IndividualPortfolioEight/IndividualPortfolioFourth';
 import IndividualPortfolioNineth from './component/Portfolio/IndividualPortfolioNineth/IndividualPortfolioNineth';
+import IndividualPortfolioTenth from './component/Portfolio/IndividualPortfolioTenth/IndividualPortfolioTenth';
 
 import Vacant from '../src/component/ServicesPage/vacant/IndividualPortfolioSecond'
 import HomePage from './component/HomePage/HomePage'
@@ -50,6 +51,8 @@ export default class Firstsec extends Component {
 		<Route path="/IndividualPortfolioSeven" exact component={IndividualPortfolioSeven}/>
 		<Route path="/IndividualPortfolioEight" exact component={IndividualPortfolioEight}/>
 		<Route path="/IndividualPortfolioNineth" exact component={IndividualPortfolioNineth}/>
+		<Route path="/IndividualPortfolioTenth" exact component={IndividualPortfolioTenth}/>
+
 
 		</Router>
 		
